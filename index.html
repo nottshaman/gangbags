@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Gang Bags Editor</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>Gang Bags Style Editor</title>
+  <link href="style.css" rel="stylesheet"/>
 </head>
 <body>
   <div class="container">
-    <h1>Gang Bags Style Editor</h1>
-    <input type="file" id="upload" accept="image/*" />
-    <div id="preview-container">
-      <img id="preview" src="" alt="Uploaded Image"/>
-    </div>
-    <button id="apply">Apply Gang Bags Style</button>
-    <div id="result-container">
-      <img id="result" src="" alt="Result Image"/>
-    </div>
-    <a id="download" href="#" download="gangbags.png">Download</a>
+    <h1>💸 Gang Bags Style Editor 💸</h1>
+    
+    <input type="file" id="imageInput" accept="image/*">
+    <img id="uploadedImage" src="" alt="Uploaded Image" class="preview" />
+
+    <button id="applyButton">✨ Apply Gang Bags Style ✨</button>
+
+    <img id="resultImage" src="" alt="Result Image" class="preview" />
+    <a id="downloadButton" href="#" download="gangbags_result.png">⬇️ Download Result</a>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
