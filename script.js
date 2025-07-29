@@ -26,7 +26,7 @@ applyBtn.addEventListener("click", async () => {
 
   applyBtn.textContent = "Applying...";
   try {
-    const prompt = "Create a ghibli studio style cute image of a cool gangster with green and black color scheme. His eyes are glowing dollar bag symbols. The background is filled with dollar bags";
+    const prompt = "Create a ghibli studio style cute image of a cool gangster with green and black color scheme. His eyes are glowing dollar bag symbols. The background is filled with dollar bags. Add text BAGS Cult in the backgound";
     const response = await fetch("https://gangbags1-backend-3.onrender.com/generate", {
       method: "POST",
       headers: {
