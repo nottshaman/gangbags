@@ -1,15 +1,9 @@
 body {
-  background-color: #000;
-  color: #00ff66;
-  font-family: 'Courier New', monospace;
+  font-family: Arial, sans-serif;
+  background: #000;
+  color: #0f0;
   text-align: center;
-  margin: 0;
-  padding: 40px 10px;
-}
-
-h1 {
-  font-size: 2.5rem;
-  text-shadow: 0 0 10px #00ff66;
+  padding: 20px;
 }
 
 .container {
@@ -17,37 +11,23 @@ h1 {
   margin: auto;
 }
 
-input[type="file"] {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.preview {
+img {
   max-width: 100%;
-  height: auto;
   margin: 20px 0;
-  border: 3px solid #00ff66;
+  border: 2px solid #0f0;
   border-radius: 10px;
-  box-shadow: 0 0 20px #00ff66;
 }
 
-button, a {
-  display: inline-block;
-  padding: 12px 20px;
-  background-color: #00ff66;
-  color: black;
-  font-weight: bold;
-  font-size: 1rem;
-  border: none;
-  border-radius: 8px;
+button, a, input[type="text"] {
+  padding: 10px 20px;
   margin: 10px;
+  background-color: #0f0;
+  color: #000;
+  border: none;
+  border-radius: 5px;
   text-decoration: none;
-  cursor: pointer;
-  box-shadow: 0 0 10px #00ff66;
-  transition: 0.3s ease;
+  font-weight: bold;
 }
-
-button:hover, a:hover {
-  box-shadow: 0 0 20px #00ff66, 0 0 40px #00ff66;
-  transform: scale(1.05);
+input[type="text"] {
+  width: 80%;
 }
