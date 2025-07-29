@@ -41,9 +41,3 @@ input[type="text"] {
   display: inline-block;
   margin-bottom: 10px;
 }
-
-#fileName {
-  margin-left: 10px;
-  color: #00ff66;
-  font-size: 0.9rem;
-}
