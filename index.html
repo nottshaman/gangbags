@@ -9,7 +9,9 @@
 <body>
   <div class="container">
     <h1>Gang Bags Style Editor</h1>
-    <input type="file" id="upload" accept="image/*" />
+    <label for="imageInput" class="custom-file-upload">📁 Choose Image</label>
+<input type="file" id="imageInput" accept="image/*" style="display:none">
+<span id="fileName">No file chosen</span>
     <div id="preview-container">
       <img id="preview" src="" alt="Uploaded Image"/>
     </div>
