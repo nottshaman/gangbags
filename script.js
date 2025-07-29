@@ -26,7 +26,7 @@ applyBtn.addEventListener("click", async () => {
 
   applyBtn.textContent = "Applying...";
   try {
-    const prompt = "Create an image of a cool gangster with a neon green and black effect. The character's eyes are glowing dollar bags. The background is filled with floating glowing dollar bags, enhancing the dark and stylish atmosphere.";
+    const prompt = "Create a cartoon-style image of a cool gangster with a neon green and black color scheme. His eyes are glowing dollar bag symbols. The background is filled with neon dollar bags, creating a bold and stylish atmosphere.";
     const response = await fetch("https://gangbags1-backend-3.onrender.com/generate", {
       method: "POST",
       headers: {
