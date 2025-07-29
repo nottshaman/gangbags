@@ -26,7 +26,7 @@ applyBtn.addEventListener("click", async () => {
 
   applyBtn.textContent = "Applying...";
   try {
-    const prompt = "Create a ghibli studio style image of a cool gangster with a neon green and black color scheme. His eyes are glowing dollar bag symbols. The background is filled with neon dollar bags, creating a bold and stylish atmosphere.";
+    const prompt = "Create a ghibli studio style cute image of a cool gangster with green and black color scheme. His eyes are glowing dollar bag symbols. The background is filled with dollar bags";
     const response = await fetch("https://gangbags1-backend-3.onrender.com/generate", {
       method: "POST",
       headers: {
